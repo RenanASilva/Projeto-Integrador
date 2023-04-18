@@ -1,0 +1,136 @@
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding: 0rem 0 2rem;
+}
+
+.post {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, auto));
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.post-box {
+    background: rgb(227, 227, 227);
+    box-shadow: 0 4px 14px black;
+    padding: 15px;
+    border-radius: 0.5rem;
+}
+
+.post-img {
+    padding-bottom: 6.5px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0.5rem;
+}
+
+.post-title {
+    padding-bottom: 0.8px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    /* Para limitar o titulo em x linhas */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.post-date {
+    padding-bottom: 3px;
+    display: flex;
+    font-size: 0.875rem;
+    text-transform: lowercase;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+.post-description {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin: 5px 0 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.profile-wrapper {
+    width: 49.2%;
+    /* Ocupa metade da tela */
+    float: left;
+    /* Adiciona a propriedade float para permitir que as caixas fiquem lado a lado */
+    border: 2px solid #000000;
+    /* Estilo da borda preta */
+    padding: 2px;
+    /* Espaçamento interno para a borda não colar diretamente no conteúdo */
+    border-radius: 15px;
+    /* Valor de arredondamento das pontas */
+    overflow: hidden;
+    /* Oculta o conteúdo que ultrapassa a borda arredondada */
+    margin-right: 10px;
+    /* Adiciona margem à direita para criar espaço entre as caixas */
+    box-sizing: border-box;
+    /* Adiciona a propriedade box-sizing para incluir a borda e o padding no cálculo da largura */
+}
+
+.profile {
+    display: flex;
+    /* Aplica o display flex para criar um container flex */
+    align-items: center;
+    /* Alinha itens verticalmente ao centro */
+    gap: 10px;
+    /* Define um espaçamento entre os itens */
+    background-color: rgb(255, 255, 255);
+}
+
+.profile-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    white-space: nowrap;
+    /* Evita quebra de linha */
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid rgb(50, 206, 50);
+}
+
+
+.profile-description {
+    font-size: 16px;
+    /* Define o tamanho da fonte da descrição do perfil */
+    color: #000000;
+    /* Define a cor do texto */
+    margin-top: 4px;
+}
+
+.post-box {
+    transition: transform 0.3s ease;
+}
+
+.post-box:hover {
+    transform: scale(1.03);
+}
+
+/* .social-media {
+    width: 20px;
+    height: 20px;
+    border-radius: 0%;
+   
+    border: 2px solid rgb(0, 0, 0);
+} */

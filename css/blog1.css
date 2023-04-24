@@ -1,0 +1,122 @@
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding: 0rem 0 2rem;
+}
+
+.breadcrumb {
+    display: inline-block;
+}
+
+.post-header {
+    width: 100%;
+    height: 500px;
+}
+
+.post-container {
+    max-width: 800px;
+    margin: auto;
+    width: 100%;
+}
+
+.back-home {
+    font-size: 0.9rem;
+}
+
+.header-title {
+    font-size: 2.6rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.header-img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.post-content {
+    margin-top: 5rem !important;
+}
+
+.sub-heading {
+    font-size: 1.2rem;
+}
+
+.post-text {
+    font-size: 1rem;
+    line-height: 1.7rem;
+    margin: 1rem 0;
+    text-align: justify;
+}
+
+.profile-wrapper {
+    width: 100%;
+    /* Ocupa metade da tela */
+    float: left;
+    /* Adiciona a propriedade float para permitir que as caixas fiquem lado a lado */
+    border: 2px solid #000000;
+    /* Estilo da borda preta */
+    padding: 2px;
+    /* Espaçamento interno para a borda não colar diretamente no conteúdo */
+    border-radius: 15px;
+    /* Valor de arredondamento das pontas */
+    overflow: hidden;
+    /* Oculta o conteúdo que ultrapassa a borda arredondada */
+    margin-right: 10px;
+    /* Adiciona margem à direita para criar espaço entre as caixas */
+    box-sizing: border-box;
+    /* Adiciona a propriedade box-sizing para incluir a borda e o padding no cálculo da largura */
+}
+
+.profile {
+    display: flex;
+    /* Aplica o display flex para criar um container flex */
+    align-items: center;
+    /* Alinha itens verticalmente ao centro */
+    gap: 10px;
+    /* Define um espaçamento entre os itens */
+    background-color: rgb(255, 255, 255);
+}
+
+.profile-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    white-space: nowrap;
+    /* Evita quebra de linha */
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid rgb(50, 206, 50);
+}
+
+
+.profile-description {
+    font-size: 16px;
+    /* Define o tamanho da fonte da descrição do perfil */
+    color: #000000;
+    /* Define a cor do texto */
+    margin-top: 4px;
+}
+
+.post-box {
+    transition: transform 0.3s ease;
+}
+
+.post-box:hover {
+    transform: scale(1.03);
+}

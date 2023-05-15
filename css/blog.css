@@ -125,3 +125,39 @@ section {
 .post-box:hover {
     transform: scale(1.03);
 }
+
+.compartilhar-botao-um {
+    text-decoration: none;
+    font-size: 30px;
+    position: absolute;
+    left: 290px;
+    top: 689px;
+}
+
+.compartilhar-botao-um img {
+    width: 40px;
+}
+
+.compartilhar-botao-dois {
+    text-decoration: none;
+    font-size: 30px;
+    position: absolute;
+    left: 290px;
+    top: 742px;
+}
+
+.compartilhar-botao-dois img {
+    width: 40px;
+}
+
+.compartilhar-botao-tres {
+    text-decoration: none;
+    font-size: 30px;
+    position: absolute;
+    left: 290px;
+    top: 795px;
+}
+
+.compartilhar-botao-tres img {
+    width: 40px;
+}

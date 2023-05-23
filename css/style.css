@@ -10,7 +10,7 @@ section {
     padding: 0rem 0 2rem;
 }
 
-.post {
+.post-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, auto));
     justify-content: center;
@@ -33,19 +33,19 @@ section {
     border-radius: 0.5rem;
 }
 
-.post-title {
+.post-titulo {
     padding-bottom: 0.8px;
     font-size: 1.3rem;
     font-weight: 600;
     color: rgb(0, 0, 0);
-    /* Para limitar o titulo em x linhas */
+    /* Para limitar o titulo em x linhas. uso so pra verificar o limite em um titulo quando to fazendo */
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
 
-.post-date {
+.post-data {
     padding-bottom: 3px;
     display: flex;
     font-size: 0.875rem;
@@ -54,42 +54,170 @@ section {
     margin-top: 4px;
 }
 
-.post-description {
+.post-descricao {
     font-size: 0.9rem;
     line-height: 1.5rem;
     margin: 5px 0 10px;
+    /* Eu uso mais esse comando enquanto to construindo os posts, pra manter o mesmo tamanho de box em tds */
     display: -webkit-box;
     -webkit-line-clamp: 6;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
 
-.profile-wrapper {
+.post-box {
+    transition: transform 0.3s ease;
+}
+
+.post-box:hover {
+    transform: scale(1.03);
+}
+
+footer {
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container-footer {
+    background-color: #434A76;
+    display: flex;
+    padding-top: 2em;
+    padding-left: 1em;
+    justify-content: space-around;
+}
+
+.sobre {
+    width: 33%;
+}
+
+.sobre h4 {
+    color: aliceblue;
+    padding-bottom: 2em;
+}
+
+.sobre p {
+    color: #7A81AC;
+    padding-bottom: 2em;
+}
+
+.redes-sociais {
+    width: 30%;
+}
+
+.redes-sociais nav {
+    display: grid;
+    gap: 0.4em;
+}
+
+.redes-sociais h4 {
+    color: aliceblue;
+    padding-bottom: 2em;
+}
+
+.redes-sociais a {
+    color: #7A81AC;
+}
+
+.redes-sociais a:hover {
+    color: #afb4d3;
+}
+
+.footer {
+    background-color: #434A76;
+    display: flex
+}
+
+.footer a {
+    background-color: ;
+    margin-left: 2em;
+    color: #7A81AC;
+}
+
+.footer a:hover {
+    color: aliceblue;
+}
+
+.footer p {
+    color: aliceblue;
+    position: fixed;
+    right: 10%;
+}
+
+/* .social-media {
+    width: 20px;
+    height: 20px;
+    border-radius: 0%;
+   
+    border: 2px solid rgb(0, 0, 0);
+} 
+
+.assine {
+    width: 30%;
+}
+
+.assine h4 {
+    color: aliceblue;
+    padding-bottom: 2em;
+}
+
+.assine p {
+    color: #7A81AC;
+    padding-bottom: 1em;
+}
+
+.assine form {
+    display: grid;
+}
+
+.assine input {
+    background-color: #9FA4CA;
+    border: 0;
+    margin-bottom: 5px;
+    height: 2.5em;
+    width: 100%;
+    text-indent: 1em;
+    color: aliceblue;
+}
+
+.assine input::placeholder {
+    color: aliceblue;
+}
+
+.assine button {
+    background-color: #646FAF;
+    border: 0;
+    height: 2.5em;
+    color: aliceblue;
+}
+
+.assine button:hover {
+    background-color: #545c92;
+}
+
+.assine button:active {
+    background-color: #3e4470;
+}
+
+*/
+
+
+/* .profile-wrapper {
     width: 49.2%;
-    /* Ocupa metade da tela */
     float: left;
-    /* Adiciona a propriedade float para permitir que as caixas fiquem lado a lado */
     border: 2px solid #000000;
-    /* Estilo da borda preta */
     padding: 2px;
-    /* Espaçamento interno para a borda não colar diretamente no conteúdo */
     border-radius: 15px;
-    /* Valor de arredondamento das pontas */
     overflow: hidden;
-    /* Oculta o conteúdo que ultrapassa a borda arredondada */
     margin-right: 10px;
-    /* Adiciona margem à direita para criar espaço entre as caixas */
     box-sizing: border-box;
-    /* Adiciona a propriedade box-sizing para incluir a borda e o padding no cálculo da largura */
 }
 
 .profile {
     display: flex;
-    /* Aplica o display flex para criar um container flex */
     align-items: center;
-    /* Alinha itens verticalmente ao centro */
     gap: 10px;
-    /* Define um espaçamento entre os itens */
     background-color: rgb(255, 255, 255);
 }
 
@@ -98,7 +226,6 @@ section {
     font-weight: bold;
     color: #000;
     white-space: nowrap;
-    /* Evita quebra de linha */
 }
 
 .profile-img {
@@ -113,24 +240,6 @@ section {
 
 .profile-description {
     font-size: 16px;
-    /* Define o tamanho da fonte da descrição do perfil */
     color: #000000;
-    /* Define a cor do texto */
     margin-top: 4px;
-}
-
-.post-box {
-    transition: transform 0.3s ease;
-}
-
-.post-box:hover {
-    transform: scale(1.03);
-}
-
-/* .social-media {
-    width: 20px;
-    height: 20px;
-    border-radius: 0%;
-   
-    border: 2px solid rgb(0, 0, 0);
 } */

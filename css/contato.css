@@ -14,7 +14,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(107, 151, 227);
+    background-color: #fbfefa;
     min-height: 100vh;
     padding-top: 50px;
 }
@@ -25,13 +25,13 @@ section {
     justify-content: center;
     flex-direction: column;
     padding: 10px 50px;
-    background-color: darkgreen;
+    background-color: #fbfefa;
     width: 500px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 section h2 {
-    color: white;
+    color: #43955e;
     font-size: 2.5rem;
     margin: 2rem;
 }
@@ -43,7 +43,7 @@ section form {
 }
 
 form label {
-    color: white;
+    color: #43955e;
     font-size: 17px;
     margin-bottom: 5px;
 }
@@ -74,8 +74,8 @@ form button {
     cursor: pointer;
     font-size: 16px;
     background: transparent;
-    border: 2px solid white;
-    color: white;
+    border: 2px solid #43955e;
+    color: #43955e;
     margin-bottom: 20px;
     transition: 0.2s;
 }
@@ -84,78 +84,4 @@ form button:hover {
     background-color: white;
     color: black;
     transform: scale(1.02);
-}
-
-footer {
-    padding: 0%;
-    margin: 0%;
-    text-decoration: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-top: 50px;
-}
-
-.container-footer {
-    background-color: #434A76;
-    display: flex;
-    padding-top: 2em;
-    padding-left: 1em;
-    justify-content: space-around;
-}
-
-.sobre {
-    width: 33%;
-}
-
-.sobre h4 {
-    color: aliceblue;
-    padding-bottom: 2em;
-}
-
-.sobre p {
-    color: #7A81AC;
-    padding-bottom: 2em;
-}
-
-.redes-sociais {
-    width: 30%;
-}
-
-.redes-sociais nav {
-    display: grid;
-    gap: 0.4em;
-}
-
-.redes-sociais h4 {
-    color: aliceblue;
-    padding-bottom: 2em;
-}
-
-.redes-sociais a {
-    color: #7A81AC;
-    text-decoration: none;
-}
-
-.redes-sociais a:hover {
-    color: #afb4d3;
-}
-
-.footer {
-    background-color: #434A76;
-    display: flex
-}
-
-.footer a {
-    background-color: ;
-    margin-left: 2em;
-    color: #7A81AC;
-}
-
-.footer a:hover {
-    color: aliceblue;
-}
-
-.footer p {
-    color: aliceblue;
-    position: fixed;
-    right: 10%;
 }

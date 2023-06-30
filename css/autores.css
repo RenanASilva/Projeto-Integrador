@@ -1,0 +1,222 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(247, 247, 247);
+}
+
+section{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    
+    margin-bottom: 8vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+}
+
+.inicio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3.5em;
+}
+
+
+.inicio  h3{
+    margin-top: 0.5em;
+    text-transform: capitalize;
+    font-size: 2.5em;
+    font-weight: 550;
+    margin-bottom: 0.4em;
+    text-align: center;
+}
+
+.inicio  p{
+    text-align: center;
+    font-size: 1.4em;
+    overflow: hidden;
+}
+
+
+.paia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+
+.linha{
+    display: flex;
+    flex-direction: column;
+    padding: 2em 0.6em 2em 0.6em;
+    width: 100%;
+}
+
+.linha div{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(107, 107, 107);
+}
+
+.bloco{
+    display: grid;
+    grid: auto / 1fr 1fr 1fr 1fr;
+    grid-gap: 2em;
+}
+
+.autor{
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+}
+
+
+
+.autor a{
+    text-decoration: none;
+    height: auto;
+    width: auto;
+}
+
+
+.autor a .esp{
+    padding-top: 010px;
+    transition:  0.3s;
+
+}
+
+
+
+.autor a .esp:hover{
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.autor h3{
+    color: black;
+    margin: 0.4em 0 0 0;
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+
+.autor .img{
+    aspect-ratio: 2/2.2;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 9%;
+}
+
+.autor span{
+    font-size: 0.9em;
+    margin-left: 0.3em;
+    
+    
+}
+
+.autor .info{
+    display: flex;
+    align-items: center;
+    margin: 0.4em 0 0.4em 0em;
+
+}
+
+.autor p{
+    width: 100%;
+    overflow: hidden;
+    font-size: 1em;
+    
+}
+
+/* imagens */
+.autor .i1{
+    background-image: url("../img/_9bc62ac5-8d24-45a0-bf47-7526d45836b1.jpg");
+}
+
+.autor .i2{
+    background-image: url("../img/2275847-avatar-masculino-perfil-icone-de-homem-caucasiano-sorridente-vetor.jpg");
+}
+
+.autor .i3{
+    background-image: url("../img/2275847-avatar-masculino-perfil-icone-de-homem-caucasiano-sorridente-vetor.jpg");
+}
+
+.autor .i4{
+    background-image: url("../img/pexels-kindel-media-8326466.jpg");
+}
+
+
+
+.navegação{
+    margin-left: 97%;
+    margin-top: 2.5em;
+}
+
+
+
+.navegação a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    color: #2e2b2b;
+    border-radius: 50%;
+    border: 1px solid #2e2b2b;
+    transition: all 0.3s ease;
+    margin: 0 5px;
+}
+
+
+@media(max-width: 920px){
+    .container{
+        width: 70%;
+    }
+
+    .bloco{
+        grid: auto / 1fr 1fr;
+        grid-gap: 3em;
+    }
+
+    .autor .img{
+        height: 15em;
+    }
+
+    
+}    
+
+
+@media(max-width: 612px){
+
+
+    .container{
+        width: 100%;
+    }
+
+    .bloco{
+        grid: auto / 1fr;
+        grid-gap: 3em;
+        /* width: 55vw; */
+        width: min-content;
+    }
+    
+    .autor a{
+        width: max-content;
+    }
+    
+   
+    .autor .img{
+        height: 15em;
+    }
+}

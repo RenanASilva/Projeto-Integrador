@@ -1,315 +1,419 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projeto Integrador - Arborização Urbana</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Integrador</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
-  <header class="container-pai-header">
-    <section class="container-filho-pesquisa">
-      <div class="pesquisa">
-        <form action="/pesquisar"></form>
-        <input type="text" name="barra-de-pesquisa" id="#pesquisa"
-          placeholder="O que Deseja Encontrar em Nosso Site?" />
-        <input type="submit" value="Pesquisar" />
-      </div>
-    </section>
+  <header class="container-pai-menu">
 
-    <section class="container-pai-banner">
-      <div class="container-filho-titulo">
-        <h2>Não Entende o Porque de Estar Calor até na Sombra?</h2>
-        <div class="trambico">
-          <h6>
-            Venha Descobrir a Maneira de se Refrescar e Embelezar onde Você
-            Mora
-          </h6>
-        </div>
-      </div>
+      <img src="./img/incone2.png" alt="">
 
-      <div class="container-filho-foto">
-        <div class="container-filho-fototo1">
-          <a href="blog-arborizacao.html">
-            Arborização urbana e sua importância
-          </a>
-        </div>
-        <div class="container-filho-fototo2">
-          <a href="#" class="post-titulo">
-            Especies nátivas de árvores de Caraguatatuba
-          </a>
-        </div>
-      </div>
-    </section>
+    <nav class="container-filho-menu">
+
+     <ul>
+       <!-- <i class="fa-solid fa-chevron-down" style="color: #000000;"></i> -->
+       <!-- lembrar de adcionar isso como links -->
+      <li><a href="./index.html">Home</a></li> 
+      <li><a href="#">Posts Recentes</a></li>
+      <li><a href="./autores.html">Equipe</a></li>
+      <li><a href="./contato.html">Contato</a></li>
+     </ul> 
+
+    </nav>
   </header>
+  
+  <section class="conatiner-pai-banner">
+    <!-- <img src="./img/hornet.webp" alt=""> -->
+    <div class="titulo-banner">
+      <a href="./blog-arbo.html">Arborização Urbana <br>
+         e sua Importância
+      </a>
+    </div>
+    <div class="texto1-banner">
+      <div class="data-banner">
+        <span>Postado há 15 dias</span>
+      </div>
+      <div class="linha-card">
 
-  <section class="container-pai-blogs">
-    <div class="container-filho-cards">
-      <h2>Postagens Mais Acessadas</h2>
-    </div>
-    <div class="kk">
-      <div class="cards">
-        <img src="img/ipe-amarelo.jpg" alt="pãeszinhos quentinhos" />
-        <a href="blog-arborizacao.html">
-          Arborização urbana e sua importância
-        </a>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
-          culpa dolorem deleniti nam ut minus atque sint qui fuga, officia
-          tenetur dicta quasi nisi? Quod commodi modi
-        </p>
       </div>
-      <div class="cards">
-        <img src="img/ipe-amarelo.jpg" alt="" />
-        <a href="blog-plante-arvore.html" class="post-titulo">
-          Plante uma árvore e ajude o meio ambiente
-        </a>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
-          culpa dolorem deleniti nam ut minus atque sint qui fuga, officia
-          tenetur dicta quasi nisi? Quod commodi modi
-        </p>
-      </div>
-      <div class="cards">
-        <img src="img/ipe-amarelo.jpg" alt="" />
-        <a href="blog-importancia-planejamento.html" class="post-titulo">
-          A importância do planejamento
-        </a>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
-          culpa dolorem deleniti nam ut minus atque sint qui fuga, officia
-        </p>
+      <div class="tempo-leitura">
+        <span>2 min read</span>
       </div>
     </div>
-    <div class="clear"></div>
+    <div class="autor-banner">
+      <img src="./img/anthony.jpg" alt="">
+      <a href="#">Anthony Scott</a>
+    </div>
   </section>
 
-  <section class="container-pai-blogs">
-    <div class="container-filho-cards">
-      <h2>Postagens Mais Acessadas</h2>
+  <section class="container-pai-cards">
+
+    <div class="cards">
+      <div class="container-filho-card-topo">
+
+        <div class="card-img">
+          <a href="#"><img src="./img/arbo-icon3.png" alt=""></a>
+        </div>
+
+        <div class="titulo-card">
+
+          <div class="trambico-titulo">
+
+            <a href="blog-arbo.html">Falando um Pouco Sobre Arborização Urbana
+               e sua Importância
+            </a>
+
+          </div>
+
+          <div class="texto1-card">
+            <div class="trambico-data">
+              <span>Postado há 15 dias</span>
+            </div>
+            <div class="linha-card">
+
+            </div>
+
+            <div class="tempo-leitura-card">
+              <span><i class="fa-solid fa-timer" style="color: #43955e;"></i> 1 min read</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="container-filho-card-baixo">
+        <p>A importância da arborização urbana é imensa, ela melhora o ambiente, a qualidade de vida e torna a sua cidade mais bonita. Venha descobrir como!
+        </p>
+      </div>
+      <div class="autor-card">
+        <div class="autor-banner">
+          <img src="./img/anthony.jpg" alt="">
+          <a href="autores.html">Anthony Scott</a>
+        </div>
+      </div>
+      <div class="container-filho-card-subterraneo">
+        <div class="btn-ler-mais">
+          <a href="./blog-arbo.html">Continue lendo</a>
+        </div>
+      </div>
+      
     </div>
-    <div class="kk">
-      <div class="cards">
-        <img src="img/ipe-amarelo.jpg" alt="pãeszinhos quentinhos" />
-        <a href="blog-arborizacao.html">
-          Arborização urbana e sua importância
-        </a>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
-          culpa dolorem deleniti nam ut minus atque sint qui fuga, officia
-          tenetur dicta quasi nisi? Quod commodi modi
+
+    <!-- checkpoint se der ruim -->
+
+    <div class="cards">
+      <div class="container-filho-card-topo">
+
+        <div class="card-img">
+          <a href="blog-plante.html"><img src="./img/onde-icon2.png" alt=""></a>
+        </div>
+
+        <div class="titulo-card">
+
+          <div class="trambico-titulo">
+
+            <a href="blog-plante.html">Noções necessárias para se plantar <br> uma árvore
+
+            </a>
+
+          </div>
+
+          <div class="texto1-card">
+            <div class="trambico-data  data-card">
+              <span>Postado há 14 dias</span>
+            </div>
+            <div class="linha-card">
+
+            </div>
+
+            <div class="tempo-leitura-card">
+              <span>3 min read</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="container-filho-card-baixo">
+        <p>Plantar uma árvore é uma forma gratificante de contribuir para o meio ambiente. Siga os passos para escolher a árvore certa, o local adequado e muito mais.
+
         </p>
       </div>
-      <div class="cards">
-        <img src="img/ipe-amarelo.jpg" alt="" />
-        <a href="blog-plante-arvore.html" class="post-titulo">
-          Plante uma árvore e ajude o meio ambiente
-        </a>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
-          culpa dolorem deleniti nam ut minus atque sint qui fuga, officia
-          tenetur dicta quasi nisi? Quod commodi modi
-        </p>
+
+      <div class="autor-card">
+        <div class="autor-banner">
+          <img src="./img/./pexels-kindel-media-8326466.jpg" alt="">
+          <a href="autores.html">Pedro Oliveira</a>
+        </div>
       </div>
-      <div class="cards">
-        <img src="img/ipe-amarelo.jpg" alt="" />
-        <a href="blog-importancia-planejamento.html" class="post-titulo">
-          A importância do planejamento
-        </a>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
-          culpa dolorem deleniti nam ut minus atque sint qui fuga, officia
-        </p>
+
+      <div class="container-filho-card-subterraneo">
+        <div class="btn-ler-mais">
+          <a href="blog-arbo.html">Continue lendo</a>
+        </div>
       </div>
     </div>
-    <div class="clear"></div>
+
+    <!-- segundo checkpoint se der ruim -->
+
+    <div class="cards">
+      <div class="container-filho-card-topo">
+
+        <div class="card-img">
+          <a href="#"><img src="./img/aiai-incon.png" alt=""></a>
+        </div>
+
+        <div class="titulo-card">
+
+          <div class="trambico-titulo">
+
+            <a href="blog-impo.html">A importância do Planejamento na Arborização Urbana
+
+            </a>
+
+          </div>
+
+          <div class="texto1-card">
+            <div class="trambico-data  data-card">
+              <span>Postado há 10 dias</span>
+            </div>
+            <div class="linha-card">
+
+            </div>
+
+            <div class="tempo-leitura-card">
+              <span>3 min read</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="container-filho-card-baixo">
+        <p>Arborização cuidadosa com espécies nativas, considerando espaço e manutenção, traz benefícios estéticos e ambientais, mas para isso é necessário um bom planejamento urbano.
+
+        </p>
+      </div>
+
+      <div class="autor-card">
+        <div class="autor-banner">
+          <img src="./img/anthony.jpg" alt="">
+          <a href="autores.html">Anthony Scott</a>
+        </div>
+      </div>
+
+      <div class="container-filho-card-subterraneo">
+        <div class="btn-ler-mais">
+          <a href="blog-impo.html">Continue lendo</a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- terceiro checkpoint se der ruim -->
+
+    <div class="cards">
+      <div class="container-filho-card-topo">
+
+        <div class="card-img">
+          <a href="blog-mudas.html"><img src="./img/impo-icon.png" alt=""></a>
+        </div>
+
+        <div class="titulo-card">
+
+          <div class="trambico-titulo">
+
+            <a href="blog-mudas.html"> Saiba como conseguir mudas de árvores
+            </a>
+
+          </div>
+
+          <div class="texto1-card">
+            <div class="trambico-data  data-card">
+              <span>Postado há 8 dias</span>
+            </div>
+            <div class="linha-card">
+
+            </div>
+
+            <div class="tempo-leitura-card">
+              <span>3 min read</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="container-filho-card-baixo">
+        <p> Sabemos a imensa importância que as árvores possuem não apenas em nosso dia a dia, mas para todo o mundo. Então, deseja contribuir com o mundo também? Venha saber como.
+        </p>
+      </div>
+
+      <div class="autor-card">
+        <div class="autor-banner">
+          <img src="./img/./_9bc62ac5-8d24-45a0-bf47-7526d45836b1.jpg" alt="">
+          <a href="autores.html">Lucas Mendes</a>
+        </div>
+      </div>
+
+      <div class="container-filho-card-subterraneo">
+        <div class="btn-ler-mais">
+          <a href="mudas">Continue lendo</a>
+        </div>
+      </div>
+    </div>
+      
+    <!-- quarto checkpoint se der ruim -->
+
+    <!-- <div class="cards">
+      <div class="container-filho-card-topo">
+
+        <div class="card-img">
+          <a href="#"><img src="./img/hornet.webp" alt=""></a>
+        </div>
+
+        <div class="titulo-card">
+
+          <div class="trambico-titulo">
+
+            <a href="#">Arborização Urbana <br>
+               e sua Importância
+            </a>
+
+          </div>
+
+          <div class="texto1-card">
+            <div class="trambico-data  data-card">
+              <span>Postado há 15 dias</span>
+            </div>
+            <div class="linha-card">
+
+            </div>
+
+            <div class="tempo-leitura-card">
+              <span>3 min read</span>
+            </div>
+          </div>
+        </div>
+        
+
+      </div>
+
+      <div class="container-filho-card-baixo">
+        <p>A importância da arborização urbana é imensa, ela melhora o ambiente, a qualidade de vida e torna a sua cidade mais bonita. Venha descobrir como!
+        </p>
+      </div>
+
+      <div class="autor-card">
+        <div class="autor-banner">
+          <img src="./img/hornet.webp" alt="">
+          <a href="#">Ashuashuashuashuash</a>
+        </div>
+      </div>
+
+      <div class="container-filho-card-subterraneo">
+        <div class="btn-ler-mais">
+          <a href="#">Continue lendo</a>
+        </div>
+      </div>
+    </div> -->
+
   </section>
-
-  <!-- k -->
-
-  <!-- sessão que eu não vou descartar, mas quero alterar =D -->
-  <!-- <section class="post-container">
-      <div class="post-box">
-        <img src="img/teste.jpg" alt="descrição da imagem" class="post-img" />
-        <a href="blog-importancia-planejamento.html" class="post-titulo">
-          A importância do planejamento
-        </a>
-        <span class="post-data">09 de Abril de 2023</span>
-        <p class="post-descricao">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quos
-          officiis similique ipsum obcaecati neque reprehenderit omnis
-          architecto! Voluptas ea vitae ad atque cum repudiandae iure aliquid
-          labore expedita nesciunt. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Adipisci recusandae repellat odio ratione,
-          dignissimos animi, aspernatur magni vitae dolorem numquam quasi iusto
-          libero voluptatum enim sunt aperiam possimus accusantium. Ratione?
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi id
-          doloribus, odio animi dolores, voluptas aperiam magni at alias, harum
-          eaque vel sit. Animi molestias cupiditate in quis adipisci earum.
-        </p>
-      </div>
-
-      <div class="post-box">
-        <img src="img/teste.jpg" alt="descrição da imagem" class="post-img" />
-        <a href="blog-arborizacao.html" class="post-titulo">
-          Arborização urbana e sua importância
-        </a>
-        <span class="post-data">09 de Abril de 2023</span>
-        <p class="post-descricao">
-          Descubra como a arborização urbana pode transformar sua cidade em um
-          ambiente mais saudável e agradável para se viver. Saiba como as
-          árvores ajudam a manter o solo saudável, reduzir o risco de enchentes,
-          melhorar a qualidade do ar e do som, preservar a biodiversidade e
-          contribuir para a saúde física e mental das pessoas.
-        </p>
-      </div>
-
-      <div class="post-box">
-        <img src="img/teste.jpg" alt="descrição da imagem" class="post-img" />
-        <a href="blog-plante-arvore.html" class="post-titulo">
-          Plante uma árvore e ajude o meio ambiente
-        </a>
-        <span class="post-data">05 de Maio de 2023</span>
-        <p class="post-descricao">
-          Plantar uma árvore é uma maneira simples e gratificante de contribuir
-          para o meio ambiente. Aqui você encontrará dicas simples e práticas
-          para escolher a árvore certa, preparar o solo, plantar e cuidar da sua
-          árvore. Além disso, saiba como as árvores podem melhorar a qualidade
-          do ar, reduzir a poluição, proteger o solo e fornecer sombra e abrigo
-          para diversas espécies de animais.
-        </p>
-      </div>
-    </section>
-
-    <h2>Lançamentos recentes</h2>
-    <section class="post-container">
-      <div class="post-box">
-        <img src="img/teste.jpg" alt="descrição da imagem" class="post-img" />
-        <a href="blog-plante-arvore.html" class="post-titulo">
-          Plante uma árvore e ajude o meio ambiente
-        </a>
-        <span class="post-data">05 de Maio de 2023</span>
-        <p class="post-descricao">
-          Plantar uma árvore é uma maneira simples e gratificante de contribuir
-          para o meio ambiente. Aqui você encontrará dicas simples e práticas
-          para escolher a árvore certa, preparar o solo, plantar e cuidar da sua
-          árvore. Além disso, saiba como as árvores podem melhorar a qualidade
-          do ar, reduzir a poluição, proteger o solo e fornecer sombra e abrigo
-          para diversas espécies de animais.
-        </p>
-      </div>
-
-      <div class="post-box">
-        <img src="img/teste.jpg" alt="descrição da imagem" class="post-img" />
-        <a href="blog1.html" class="post-titulo"> lancado recentemente 2 </a>
-        <span class="post-data">09 de Abril de 2023</span>
-        <p class="post-descricao">
-          Descubra como a arborização urbana pode transformar sua cidade em um
-          ambiente mais saudável e agradável para se viver. Saiba como as
-          árvores ajudam a manter o solo saudável, reduzir o risco de enchentes,
-          melhorar a qualidade do ar e do som, preservar a biodiversidade e
-          contribuir para a saúde física e mental das pessoas.
-        </p>
-      </div>
-
-      <div class="post-box">
-        <img src="img/teste.jpg" alt="descrição da imagem" class="post-img" />
-        <a href="blog-arborizacao.html" class="post-titulo">
-          Arborização urbana e sua importância
-        </a>
-        <span class="post-data">09 de Abril de 2023</span>
-        <p class="post-descricao">
-          Descubra como a arborização urbana pode transformar sua cidade em um
-          ambiente mais saudável e agradável para se viver. Saiba como as
-          árvores ajudam a manter o solo saudável, reduzir o risco de enchentes,
-          melhorar a qualidade do ar e do som, preservar a biodiversidade e
-          contribuir para a saúde física e mental das pessoas.
-        </p>
-      </div>
-    </section> -->
-
-  <!-- ta comentado para depois arrumar, por enquanto vai o modelo atual -->
-
   <footer>
     <div class="container-footer">
-      <div class="sobre">
-        <h4>SOBRE NÓS</h4>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est id
-          earum officia ipsam possimus excepturi porro vitae assumenda
-          inventore, cumque distinctio molestias maxime soluta accusantium rem
-          magni deserunt beatae enim?
-        </p>
+      <div class="row-footer">
+
+        <div class="footer-col">
+          <div class="rede-social">
+            <div class="footer-decoracao">
+              <h4>Midias Sociais</h4>
+              <div class="linha-footer">
+              </div>
+            </div>
+
+            <div class="redes-sociais">
+              <div class="rede-sociall">
+                <div class="icon">
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a> 
+                </div>
+                <a href="#">Facebook</a>
+
+              </div>
+              <div class="rede-sociall">
+                <div class="icon">
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a> 
+                </div>
+                <a href="#">Instagram</a>
+
+              </div>
+              <div class="rede-sociall">
+                <div class="icon">
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="#">Twitter</a>
+
+              </div>
+
+              <div class="rede-sociall">
+                <div class="icon">
+                  <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <a href="#">Whatsapp</a>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-decoracao">
+            <h4>Links Importantes</h4>
+            <div class="linha-footer">
+            </div>
+          </div>
+          <ul>
+            <li><a href="#">Voltar ao Topo</a></li>
+            <li><a href="#">Posts Recentes</a></li>
+            <li><a href="./contato.html">Entrar em Contato</a></li>
+            <li><a href="autores.html">Conheça os Autores</a></li>
+          </ul>
+        </div>
+
+        <!-- <div class="footer-col">
+          <div class="footer-decoracao">
+            <h4>Links Importantes</h4>
+            <div class="linha-footer">
+            </div>
+          </div>
+
+          <ul>
+            <li><a href="#">Voltar ao Topo</a></li>
+            <li><a href="#">Entrar em Contato</a></li>
+            <li><a href="#">Conheça os Autores</a></li>
+          </ul>
+        </div> -->
+
+        <div class="footer-col">
+          <div class="footer-decoracao">
+            <h4>Sobre Nós</h4>
+            <div class="linha-footer">
+            </div>
+          </div>
+          <p class="sobre">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est id
+            earum officia ipsam possimus excepturi porro vitae assumenda
+            inventore, cumque distinctio molestias maxime soluta 
+          </p>
+        </div>
+        </div>
       </div>
-      <div class="redes-sociais">
-        <h4>REDES SOCIAS</h4>
-        <nav class="redes-sociais-lista">
-          <a href="#">Facebook</a>
-          <a href="#">Twitter</a>
-          <a href="#">Instagram</a>
-        </nav>
-      </div>
-      <div class="redes-sociais">
-        <h4>LINKS IMPORTANTES</h4>
-        <nav class="redes-sociais-lista">
-          <a href="#">Voltar ao topo</a>
-          <a href="contato.html">Entre em contato</a>
-          <a href="criadores.html">Conheça os criadores</a>
-        </nav>
-      </div>
+
     </div>
   </footer>
+  <script src="https://kit.fontawesome.com/26afea8fc4.js" crossorigin="anonymous"></script>
 </body>
-
 </html>
-
-<!-- <p>Caso queira entrar em contato: 
-    <a href="mailto:alves.renan1@aluno.ifsp.edu.br">
-        <img src="img/teste3.jpg" alt="" class="social-media">
-    </a> 
-
-    <h2>Sobre os criadores</h2>
-    <section>
-        <div class="profile-wrapper">
-            <div class="profile">
-                <img src="img/hollowknight2.jpg" alt="" class="profile-img">
-                <div class="profile-info">
-                    <span class="profile-name">Renan Alves</span>
-                    <p class="profile-description">Desde que participei de uma palestra sobre arborização urbana, minha
-                        vida mudou. Percebi como a falta de áreas verdes e árvores afetam a qualidade de vida na cidade.
-                        Comecei a ler artigos e descobri a verdadeira importância da arborização urbana, especialmente o
-                        planejamento adequado. Decidi criar meu próprio site e blog para compartilhar meu conhecimento
-                        em linguagem simples, acessível a todos. Quero conscientizar as pessoas sobre os benefícios da
-                        arborização urbana e transformar minha cidade em um lugar mais saudável e sustentável. Vamos
-                        juntos semear o futuro!</p>
-                    <p>Caso queira entrar em contato: <b>alves.renan1@aluno.ifsp.edu.br</b> por e-mail.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="profile-wrapper">
-            <div class="profile">
-                <img src="img/hornet.webp" alt="" class="profile-img">
-                <div class="profile-info">
-                    <span class="profile-name">Sevla Naner</span>
-                    <p class="profile-description">Como estudante de programação, acredito que a tecnologia pode
-                        desempenhar um papel importante na promoção da arborização urbana. Estou empolgado em trazer
-                        minha paixão pela programação e meu interesse pela natureza para este blog. Vamos explorar
-                        juntos os benefícios da arborização urbana, desde a melhoria da qualidade do ar e da saúde
-                        mental, até a promoção da biodiversidade e a criação de espaços mais agradáveis para a
-                        comunidade. Vamos trabalhar em equipe para disseminar informações valiosas de forma acessível e
-                        inspirar outros a se preocuparem com o meio ambiente e a importância das árvores nas cidades.
-                    </p>
-                    <p>Caso queira entrar em contato: <b>renansilva2391@gmail.com</b> por e-mail.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-
--->
